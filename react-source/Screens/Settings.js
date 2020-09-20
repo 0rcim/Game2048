@@ -266,7 +266,9 @@ const GameAboutFragment = () => {
         <IconEmpty2048 />
       </View>
       <ListItem title="Source Code" subtitle="GitHub @0rcim/Game2048"
-        onPress={() => { }}
+        onPress={() => {
+          Linking.openURL("https://github.com/0rcim/Game2048");
+        }}
       />
       <ListItem title="Version" subtitle="v0.20.09" />
       <ListItem title="Email" subtitle="jiangzheng4321@gmail.com"

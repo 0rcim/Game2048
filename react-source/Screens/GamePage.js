@@ -94,7 +94,7 @@ export const Game = ({ navigation }) => {
     // navigation.navigate("Home", { uselessParam: null });
     // GameOver();
     // setGame_is_over(true);
-    PauseGame();
+    if (!Game_is_over) PauseGame();
     return true;
   };
   const getGridStateMap = (gridState, direction="row") => {
